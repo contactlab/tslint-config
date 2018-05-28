@@ -1,7 +1,7 @@
 {
   "name": "@contactlab/tslint-config",
   "version": "1.0.0",
-  "description": "TSLint Contactlab Front-end Team configuration",
+  "description": "ContactLab TSLint configuration",
   "main": "index.js",
   "files": [
     "rules.json"
@@ -20,7 +20,8 @@
     "typescript",
     "ts",
     "tslint",
-    "config"
+    "config",
+    "rules"
   ],
   "author": "Contactlab Front-end Team",
   "license": "Apache-2.0",
