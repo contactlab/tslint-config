@@ -3,8 +3,7 @@ module.exports = {
   "extends": [
     "tslint:recommended",
     "tslint-eslint-rules",
-    "./rules.json",
-    "tslint-config-prettier"
+    "./rules.json"
   ]
 };
 
