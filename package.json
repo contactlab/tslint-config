@@ -4,7 +4,7 @@
   "description": "TSLint Contactlab Front-end Team configuration",
   "main": "index.js",
   "files": [
-    "./rules.json"
+    "rules.json"
   ],
   "scripts": {
     "test": "echo \"no tests yet\""
