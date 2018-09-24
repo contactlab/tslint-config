@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/contactlab/tslint-config#readme",
   "dependencies": {
-    "tslint-eslint-rules": "5.3.1"
+    "tslint-eslint-rules": "5.4.0"
   },
   "peerDependencies": {
     "tslint": ">= 5.11"
