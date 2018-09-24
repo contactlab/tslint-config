@@ -1,5 +1,7 @@
 # @contactlab/tslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/contactlab/tslint-config.svg)](https://greenkeeper.io/)
+
 ContactLab TSLint extensible and sharable configuration.
 
 ## Usage
