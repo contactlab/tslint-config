@@ -1,18 +1,17 @@
 {
   "name": "@contactlab/tslint-config",
   "version": "1.2.0",
-  "description": "ContactLab TSLint configuration",
-  "main": "index.js",
-  "files": [
-    "rules.json"
-  ],
-  "scripts": {
-    "test": "echo \"no tests yet\""
-  },
+  "description": "Contactlab TSLint configuration",
+  "author": "Contactlab",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/contactlab/tslint-config.git"
   },
+  "bugs": {
+    "url": "https://github.com/contactlab/tslint-config/issues"
+  },
+  "homepage": "https://github.com/contactlab/tslint-config#readme",
   "keywords": [
     "contactlab",
     "clab",
@@ -23,12 +22,13 @@
     "config",
     "rules"
   ],
-  "author": "Contactlab Front-end Team",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/contactlab/tslint-config/issues"
+  "files": [
+    "rules.json"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests yet\""
   },
-  "homepage": "https://github.com/contactlab/tslint-config#readme",
   "dependencies": {
     "tslint-eslint-rules": "5.4.0"
   },
