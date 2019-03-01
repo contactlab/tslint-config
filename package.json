@@ -23,16 +23,27 @@
     "rules"
   ],
   "files": [
-    "rules.json"
+    "lib"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "prebuild": "rimraf ./lib",
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "tslint-eslint-rules": "5.4.0"
   },
   "peerDependencies": {
     "tslint": ">= 5.11"
+  },
+  "devDependencies": {
+    "@types/node": "11.9.6",
+    "rimraf": "2.6.3",
+    "tslib": "1.9.3",
+    "tslint": "5.13.1",
+    "typescript": "3.3.3333"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.format.enable": true,
+  "prettier.bracketSpacing": false,
+  "prettier.singleQuote": true,
+}
