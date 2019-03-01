@@ -40,7 +40,7 @@
     "tslint": ">= 5.11"
   },
   "devDependencies": {
-    "@types/node": "11.9.6",
+    "@types/node": "11.10.0",
     "rimraf": "2.6.3",
     "tslib": "1.9.3",
     "tslint": "5.13.1",
