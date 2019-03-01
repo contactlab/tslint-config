@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/contactlab/tslint-config.svg)](https://greenkeeper.io/)
 
-ContactLab TSLint extensible and sharable configuration.
+Contactlab TSLint extensible and sharable configuration.
 
 ## Usage
 
@@ -20,9 +20,7 @@ and then add it as extension in your `tslint.json` file:
 
 ```json
 {
-  "extends": [
-    "@contactlab/tslint-config"
-  ]
+  "extends": ["@contactlab/tslint-config"]
 }
 ```
 
