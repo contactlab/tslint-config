@@ -6,6 +6,7 @@ const config: Configuration.RawConfigFile = {
   rules: {
     'arrow-parens': [true, 'ban-single-arg-parens'],
     'brace-style': true,
+    deprecation: true,
     'linebreak-style': [true, 'LF'],
     'interface-name': false,
     'no-unused-expression': [true, 'allow-tagged-template'],
