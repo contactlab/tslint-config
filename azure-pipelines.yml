@@ -1,16 +1,13 @@
-# Node.js
-# Build a general Node.js project with npm.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+name: 'Testing'
 
 pool:
   vmImage: 'ubuntu-latest'
 
 strategy:
   matrix:
-    node_8_x:
+    Node_8:
       node_version: 8.x
-    node_10_x:
+    Node_10:
       node_version: 10.x
 
 steps:
@@ -20,6 +17,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    npm ci
     npm test
-  displayName: 'install and tests'
+  displayName: 'Run tests'
