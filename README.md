@@ -1,6 +1,6 @@
 # @contactlab/tslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/contactlab/tslint-config.svg)](https://greenkeeper.io/)
+[![Build Status](https://clab-dev.visualstudio.com/OSS/_apis/build/status/contactlab.tslint-config?branchName=master)](https://clab-dev.visualstudio.com/OSS/_build/latest?definitionId=29&branchName=master)
 
 Contactlab TSLint extensible and sharable configuration.
 
