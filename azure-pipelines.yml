@@ -1,5 +1,3 @@
-name: 'Testing'
-
 pool:
   vmImage: 'ubuntu-latest'
 
