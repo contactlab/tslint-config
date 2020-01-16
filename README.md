@@ -1,6 +1,8 @@
-# @contactlab/tslint-config
+:warning: **This project was superseeded by [eslint-config-contactlab](https://github.com/contactlab/eslint-config-contactlab) v4.x**
 
-[![Build Status](https://clab-dev.visualstudio.com/OSS/_apis/build/status/contactlab.tslint-config?branchName=master)](https://clab-dev.visualstudio.com/OSS/_build/latest?definitionId=29&branchName=master)
+---
+
+# @contactlab/tslint-config
 
 Contactlab TSLint extensible and sharable configuration.
 
